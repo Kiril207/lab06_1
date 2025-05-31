@@ -148,8 +148,8 @@ if(BUILD_TESTS)
     gtest_discover_tests(RunTest)
 endif()
 set(CPACK_PACKAGE_NAME "${PROJECT_NAME}")
-set(CPACK_PACKAGE_VENDOR "vituck")
-set(CPACK_PACKAGE_CONTACT "vvlukanin13@mail.ru")
+set(CPACK_PACKAGE_VENDOR "kirya")
+set(CPACK_PACKAGE_CONTACT "mairbektemrokov@yandex.ru")
 set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "${PROJECT_DESCRIPTION}")
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
@@ -172,11 +172,6 @@ endif()
 include(InstallRequiredSystemLibraries)
 include(CPack)
 
-```
-## Добавляем CHangeLog.md
-```
-* Sat May 26 2025 tyrtir <mihailokrivov@yandex.ru> 0.1.0.0
-- Initial RPM release
 ```
 ## Добавляем release.yml
 ```
