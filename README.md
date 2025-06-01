@@ -59,7 +59,7 @@ if(BUILD_TESTS)
 endif()
 set(CPACK_PACKAGE_NAME "${PROJECT_NAME}")
 set(CPACK_PACKAGE_VENDOR "kirya")
-set(CPACK_PACKAGE_CONTACT "mairbektemrokov@yandex.ru")
+set(CPACK_PACKAGE_CONTACT "kirya.sherstyuk.05@mail.ru ")
 set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "${PROJECT_DESCRIPTION}")
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
@@ -83,11 +83,7 @@ include(InstallRequiredSystemLibraries)
 include(CPack)
 
 ```
-## Добавляем CHangeLog.md
-```
-* Sat May 26 2025 tyrtir <mihailokrivov@yandex.ru> 0.1.0.0
-- Initial RPM release
-```
+
 ## Laboratory work VI
 Данная лабораторная работа посвещена изучению средств пакетирования на примере CPack
 ```
@@ -149,7 +145,7 @@ if(BUILD_TESTS)
 endif()
 set(CPACK_PACKAGE_NAME "${PROJECT_NAME}")
 set(CPACK_PACKAGE_VENDOR "kirya")
-set(CPACK_PACKAGE_CONTACT "mairbektemrokov@yandex.ru")
+set(CPACK_PACKAGE_CONTACT "kirya.sherstyuk.05@mail.ru")
 set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
 set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "${PROJECT_DESCRIPTION}")
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
@@ -165,7 +161,7 @@ if(WIN32)
     set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE.rtf")
 else()
     set(CPACK_GENERATOR "TGZ;DEB;RPM")
-    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "vituck <vvlukanin13@mail.ru>")
+    set(CPACK_DEBIAN_PACKAGE_MAINTAINER "kirya <kirya.sherstyuk.05@mail.ru>")
     set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE "amd64")
 endif()
 
